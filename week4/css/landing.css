@@ -1,7 +1,5 @@
-/*
 *{margin:0;
 padding:0}
-*/
 
 /*apply to all page*/
 
@@ -10,6 +8,130 @@ padding:0}
 
 
 body {
-    text-align: center；
-   
+    font-family: Avenir, Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    margin:auto;
+    width: 1000px;
+    background-color: ghostwhite;
+/*	background-image:url("swimj.jpg");*/
+/*	background-size: contain;*/
 }
+
+header {
+    background-color: transparent;
+    font-family: Avenir, Tahoma, Verdana, sans-serif;
+    
+}
+
+nav {
+    font-family: Avenir, Tahoma, Verdana, sans-serif;
+    background-color: rgba(220,220,220,0.50);
+    padding-bottom: 10px;
+/*  padding-left: 35px;*/
+    padding-top: 10px;
+    line-height: 130%;
+    width:1000px;}
+
+/*add padding on the top to add margin on the top*/
+
+/*
+nav {
+    background-color: beige;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+*/
+
+figure{height:562.19px;
+    text-align: center;}
+
+nav ul {list-style-type: none;
+    margin: 0 auto;
+    }
+
+nav li {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    margin-right: 75px;
+    margin-left: 75px;
+  
+}
+/*get rid of dot*/
+
+
+/*identify the name of the class*/
+.nav-links:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: rgb(170,170,170);
+    text-decoration: none;
+}
+
+
+.nav-links:hover {
+    color: lightblue;
+}
+
+
+
+
+article {
+    background-color: rgba(169,169,169,0.50);
+/*    padding-bottom: 20px;*/
+}
+
+
+.gallery figure{
+    color: blue;
+    float: left;
+    margin: auto 0;
+    text-align: center;
+    width: 20%;
+}
+
+
+/*section {}*/
+
+footer {text-align: center;}
+
+
+h1 {
+    background-color:transparent;
+    color: #224;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.1875em;
+    padding: 25px 25px 25px 15px;
+
+}
+
+h2 {
+    background-color: transparent;
+    color: #FFF;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+h3 {
+    background-color: #FFDAB9;
+    color: #FFF;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1em;
+    /*font-style: oblique;*/
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+/*
+div{background-color: transparent;
+padding-top: 20px;
+padding-bottom: 20px;}*/
