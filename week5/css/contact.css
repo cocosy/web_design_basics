@@ -13,6 +13,7 @@ body {
     margin:auto;
     width: 1000px;
     background-color: ghostwhite;
+    
 /*	background-image:url("swimj.jpg");*/
 /*	background-size: contain;*/
 }
@@ -27,10 +28,11 @@ nav {
     font-family: Avenir, Tahoma, Verdana, sans-serif;
     background-color: rgba(220,220,220,0.50);
     padding-bottom: 10px;
-/*  padding-left: 35px;*/
+    padding-left: 35px;
     padding-top: 10px;
-    line-height: 130%;
-    width:1000px;}
+    line-height: 160%;
+    margin-left: 10px;
+    width:100px;}
 
 /*add padding on the top to add margin on the top*/
 
@@ -46,18 +48,10 @@ nav {
 figure{height:562.19px;
     text-align: center;}
 
-nav ul {list-style-type: none;
-    margin: 0 auto;
-    }
+ul {}
 
-nav li {
-    color: white;
-    display: inline-block;
-    text-align: center;
-    padding: 3px;
-    margin-right: 75px;
-    margin-left: 75px;
-  
+li {
+    list-style-type: none;
 }
 /*get rid of dot*/
 
@@ -78,47 +72,30 @@ nav li {
     color: lightblue;
 }
 
-figcaption {
-    background-color: #000;
-    color: #fff;
-    display: block;
-    font-size: 90%;
-    height: 150px;
-    opacity: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: absolute;
-    transition: opacity .4s ease;
-}
-
-figcaption p {
-   padding-top: 40px; 
-}
-
-figcaption:hover {
-    opacity: .6;
-}
+.detail{
+    margin:20px 20px 20px 20px;
+    margin-left: 20px;}
 
 
 
 article {
-    background-color: rgba(169,169,169,0.50);
+    background-color: 
+   rgba(169,169,169,0.50);
+    float: left;
+    width: 50%;
+    margin-left: 10px;
+        margin-top:20px;
+    
+    
 /*    padding-bottom: 20px;*/
 }
 
+section {}
 
-.doors figure{
-    color: blue;
-    float: left;
-    margin: auto 0;
+footer {
     text-align: center;
-    width: 20%;
-}
-
-
-/*section {}*/
-
-footer {text-align: center;}
+    margin-top:330px;
+     float:left;}
 
 
 h1 {
@@ -126,8 +103,18 @@ h1 {
     color: #224;
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 2.1875em;
-    padding: 25px 25px 25px 15px;
+    padding: 25px 25px 25px 25px;
 
+}
+
+.gallery figure {
+    color: blue;
+    float: left;
+    height: 220px;
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    width: 20%;
 }
 
 h2 {
@@ -136,7 +123,7 @@ h2 {
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 1.5em;
     padding-bottom: 10px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 10px;
 }
 
@@ -145,9 +132,8 @@ h3 {
     color: #FFF;
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 1em;
-    /*font-style: oblique;*/
     padding-bottom: 15px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 15px;
 }
 

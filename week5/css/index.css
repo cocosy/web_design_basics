@@ -1,0 +1,43 @@
+/*
+*{margin:0;
+padding:0}
+*/
+
+/*apply to all page*/
+
+
+
+
+
+body {
+    text-align: center；
+   
+}
+
+
+
+/*
+div {
+ cursor:url(https://media.giphy.com/media/3ohhwiY7Wke9briEqk/giphy.gif),auto;
+}*/
+
+
+div {
+    cursor:default;
+}
+
+img
+{
+    position:absolute;
+    top: 0px;
+    left:0px;
+}
+
+#imgb{
+    top: 314px;
+    left:750px;
+}
+
+footer{
+    position:static;
+}
