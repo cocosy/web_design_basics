@@ -33,17 +33,32 @@ nav {
     width:100px;}
 
 /*add padding on the top to add margin on the top*/
-
-/*
-nav {
-    background-color: beige;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    padding-top: 10px;
+figcaption {
+    background-color:#091744;
+    color: #fff;
+    display: block;
+    font-size: 200%;
+    height: 470px;
+    width: 960px;
+    opacity: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    transition: opacity .5s ease;
 }
-*/
 
-figure{height:562.19px;
+figcaption p {
+   padding-top: 40px; 
+}
+
+figcaption:hover {
+    opacity: .8;
+}
+
+p{text-align: center;}
+
+
+figure{height:562px;
     text-align: center;}
 
 ul {}
@@ -108,20 +123,22 @@ h2 {
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 1.5em;
     padding-bottom: 10px;
-    padding-left: 40px;
+    padding-left: 470px;
     padding-top: 10px;
 }
 
 h3 {
-    background-color: #FFDAB9;
+    background-color: transparent;
+/*    #FFDAB9*/
     color: #FFF;
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 1em;
     font-style: oblique;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    padding-top: 15px;
+/*    padding-bottom: 15px;*/
+/*    padding-left: 40px;*/
+/*    padding-top: 15px;*/
 }
+
 
 div{background-color: transparent;
 padding-top: 20px;
