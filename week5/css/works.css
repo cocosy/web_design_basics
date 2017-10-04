@@ -1,5 +1,6 @@
 *{margin:0;
-padding:0}
+padding:0;
+}
 
 /*apply to all page*/
 
@@ -45,7 +46,10 @@ nav {
 */
 
 figure{height:562px;
-    text-align: center;}
+    text-align: center;
+}
+
+img{border-radius: 50%;}
 
 ul {}
 
@@ -106,6 +110,7 @@ h1 {
     width: 20%;
 }
 
+
 figcaption{color: lightblue;}
 /*
 h2 {
@@ -132,4 +137,5 @@ h3 {
 
 div{background-color: transparent;
 padding-top: 20px;
-padding-bottom: 20px;}
+padding-bottom: 20px;
+ }

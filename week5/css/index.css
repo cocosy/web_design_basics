@@ -23,9 +23,8 @@ div {
     cursor:default;
 }
 
-img
-{
-    position:absolute;
+img{
+/*{  position:absolute;*/
     top: 0px;
     left:0px;
 }
@@ -33,8 +32,11 @@ img
 #imgb{
     top: 314px;
     left:750px;
+margin-top: 10px;
+    position: absolute;
 }
 
 footer{
     position:static;
+    text-align: center;
 }
