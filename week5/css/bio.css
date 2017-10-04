@@ -45,7 +45,9 @@ nav {
 }
 */
 
-figure{height:562.19px;
+figure{height:550px;
+    display: block;
+    float: right;
     text-align: center;}
 
 ul {}
@@ -76,7 +78,7 @@ li {
 
 
 article {
-    background-color: rgba(169,169,169,0.50);
+/*    background-color: rgba(169,169,169,0.50);*/
     width: 50%;
     float:left;
     margin-top:20px;
@@ -102,9 +104,10 @@ h1 {
 }
 
 
-p{ padding:5px 10px;}
+p{ padding:5px 40px 10px 40px;}
 
 
+/*
 .gallery figure {
     color: blue;
     float: left;
@@ -114,20 +117,22 @@ p{ padding:5px 10px;}
     text-align: center;
     width: 20%;
 }
+*/
 
 h2 {
     background-color: transparent;
-    color: #FFF;
+    color: #224;
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 1.5em;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-top: 10px;
+
 }
 
 h3 {
-    background-color: #FFDAB9;
-    color: #FFF;
+/*    background-color: rgba(169,169,169,0.50);*/
+    color: #224;
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 1em;
     padding-bottom: 15px;
