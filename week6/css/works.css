@@ -6,7 +6,9 @@ padding:0;
 
 
 
-
+.wrapper {
+    overflow: hidden;
+}
 
 body {
     font-family: Avenir, Tahoma, Verdana, sans-serif;
@@ -34,22 +36,7 @@ nav {
     margin-left: 10px;
     width:100px;}
 
-/*add padding on the top to add margin on the top*/
-
-/*
-nav {
-    background-color: beige;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    padding-top: 10px;
-}
-*/
-
-figure{height:562px;
-    text-align: center;
-}
-
-img{border-radius: 50%;}
+/*img{border-radius: 50%;}*/
 
 ul {}
 
@@ -75,13 +62,12 @@ li {
     color: lightblue;
 }
 
+div{
+/*background-color: transparent;*/
 
-
-
-article {
-    background-color: rgba(169,169,169,0.50);
-/*    padding-bottom: 20px;*/
-}
+/*margin-top: 10px;*/
+margin-bottom: 10px;
+ }
 
 section {}
 
@@ -111,18 +97,21 @@ h1 {
 }
 
 
-figcaption{color: lightblue;}
-/*
+/*datacaption{color: lightblue;}*/
 h2 {
     background-color: transparent;
     color: #FFF;
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
-    font-size: 1.5em;
+    font-size: 3em;
+    text-align: center;
+/*
     padding-bottom: 10px;
     padding-left: 40px;
-    padding-top: 10px;
+*/
+    padding-top: 40%;
 }
 
+/*
 h3 {
     background-color: #FFDAB9;
     color: #FFF;
@@ -135,7 +124,3 @@ h3 {
 }
 */
 
-div{background-color: transparent;
-padding-top: 20px;
-padding-bottom: 20px;
- }
