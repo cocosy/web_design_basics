@@ -24,14 +24,14 @@ body {
   padding: 2vh 2vw;
   text-align: center;
   display: table;
-  max-width: 100vw;
+  max-width: 900vw;
 }
 
 img {
   display: inline-block;
-  float: right;
+/*  float: right;*/
   width: 30.9vw;
-  padding: 2vw;
+/*  padding: 5px;*/
   mix-blend-mode: multiply;
 }
 
