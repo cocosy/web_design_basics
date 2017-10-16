@@ -23,17 +23,17 @@ div {
     cursor:default;
 }
 
-img{
+.home{
 /*{  position:absolute;*/
     top: 0px;
     left:0px;
 }
 
-#imgb{
+.door{
     top: 314px;
     left:750px;
-margin-top: 10px;
-    position: absolute;
+    margin-top: 10px;
+/*    float:left;*/
 }
 
 footer{
