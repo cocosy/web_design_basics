@@ -81,12 +81,14 @@ article {
 
 
 .doors figure{
-    color: blue;
+/*    color: blue;*/
     float: left;
-    margin: auto 0;
+/*    margin: auto 0;*/
     text-align: center;
     width: 20%;
 }
+
+img{width:100%;}
 
 
 /*section {}*/
