@@ -11,7 +11,7 @@ body {
     font-family: Avenir, Tahoma, Verdana, sans-serif;
     font-size: 100%;
     margin:auto;
-    width: 1000px;
+    width: 70%;
     background-color: ghostwhite;
 /*	background-image:url("swimj.jpg");*/
 /*	background-size: contain;*/
@@ -45,10 +45,10 @@ nav {
 }
 */
 
-figure{height:550px;
+figure{
+/*	height:550px;*/
     display: block;
-    float: right;
-    text-align: center;}
+    float: right;}
 
 ul {}
 
