@@ -1,0 +1,47 @@
+*{cursor: url(../img/fish-07.png)5 5,help;}
+
+/*apply to all page*/
+
+
+
+
+
+body {
+    text-align: center；
+   
+}
+
+
+
+/*
+div {
+ cursor:url(https://media.giphy.com/media/3ohhwiY7Wke9briEqk/giphy.gif),auto;
+}*/
+
+
+div {
+    cursor:default;
+}
+
+
+
+.home{
+/*{  position:absolute;*/
+    top: 0px;
+    left:0px;
+     width:100%;
+}
+
+.door{width:17%;
+/*    top: 314px*/
+        top: 20%;
+/*    left:750px;*/
+    left:60%;
+    margin-top: 10px;
+/*    float:left;*/
+}
+
+footer{
+    position:static;
+    text-align: center;
+}
