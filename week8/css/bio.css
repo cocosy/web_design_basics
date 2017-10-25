@@ -216,7 +216,7 @@ input[type=checkbox]:checked~.main-nav {
 	}
 	
 	img{
-		position:absolute;
+		position:relative;
 	}
 }
 	
