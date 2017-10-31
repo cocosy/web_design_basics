@@ -35,6 +35,10 @@ figure{
     max-width:100%;
 }
 
+.little{
+	display: none;
+}
+
 /*.door{max-width:20%;*/
 /*    margin-left:50%;*/
 /*        top: 10%;*/
@@ -47,4 +51,15 @@ figure{
 footer{
   
     text-align: center;
+}
+
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+	.home{
+		display: none;
+	}
+	.little{
+		display: block;
+		width:100%;
+		position: relative;
+	}
 }
