@@ -8,11 +8,11 @@ padding:0}
 
 
 body {
-    font-family: Avenir, Tahoma, Verdana, sans-serif;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 100%;
     margin:auto;
     max-width: 70%;
-	min-width: 20%;
+/*	min-width: 70%;*/
     background-color: ghostwhite;
 /*	background-image:url("swimj.jpg");*/
 /*	background-size: contain;*/
@@ -41,12 +41,13 @@ body {
 .navbar-nav li a:visited {
     color: rgb(170,170,170);
 }
+/*
 
 header {
     background-color: transparent;
-    font-family: Avenir, Tahoma, Verdana, sans-serif;
-    
+    font-family: Avenir, Tahoma, Verdana, sans-serif; 
 }
+*/
 
 /*
 nav {
@@ -171,6 +172,7 @@ input[type=checkbox]:checked~.main-nav {
 }
 */
 
+/*
 @media only screen and (min-width: 20em) and (max-width: 39em) {
 	
 	.show-menu {
@@ -183,7 +185,7 @@ input[type=checkbox]:checked~.main-nav {
 		position: static;
 	}
 	.main-nav li{
-/*		margin-top: 30px;*/
+		margin-top: 30px;
 		display: block;
 
 	}
@@ -197,26 +199,28 @@ input[type=checkbox]:checked~.main-nav {
 		position:relative;
 	}
 }
+*/
 
-@media only screen and (min-width: 29em) and (max-width: 59em) {
 /*
+@media only screen and (min-width: 29em) and (max-width: 59em) {
 	.show-menu {
         background-color:#FCD8B8;
         display: block;
     }
-*/
 	
 	.container-fluid {
 	    float:right;
  		width: 100%;
 }
+*/
 	
+/*
 	.navbar{
 		display: none;
 		position: static;
 	}
 	.main-nav li{
-/*		margin-top: 30px;*/
+		margin-top: 30px;
 		display: block;
 
 	}
@@ -230,5 +234,5 @@ input[type=checkbox]:checked~.main-nav {
 		position:relative;
 	}
 }
+*/
 	
-}
