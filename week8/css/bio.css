@@ -18,6 +18,29 @@ body {
 /*	background-size: contain;*/
 }
 
+.container-fluid {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.navbar {
+	
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c;
+	font-family: Avenir, Tahoma, Verdana, sans-serif;
+}
+
+
+
 header {
     background-color: transparent;
     font-family: Avenir, Tahoma, Verdana, sans-serif;
@@ -47,7 +70,6 @@ nav {
 
 figure{
 /*	height:550px;*/
-    display: block;
     float: right;}
 
 ul {}
@@ -90,8 +112,6 @@ div{background-color: transparent;
     width:40%;
 
 footer {text-align: center;
-    float:left;
-    padding-top: 160px;
 /*    margin-left: 230px;*/
 }
 
@@ -105,8 +125,6 @@ h1 {
 
 }
 
-
-p{ padding:5px 40px 10px 40px;}
 
 
 /*
