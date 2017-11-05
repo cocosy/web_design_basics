@@ -109,10 +109,10 @@ article {
 
 div{background-color: transparent;
     float:right;
-    width:40%;
+	width:40%;}
 
-footer {text-align: center;
-/*    margin-left: 230px;*/
+footer{  
+	text-align: center;
 }
 
 
@@ -164,7 +164,7 @@ h3 {
     
 /*
 padding-top: 20px;
-padding-bottom: 20px;*/}
+padding-bottom: 20px;*/
 
 
 .show-menu {
@@ -236,6 +236,4 @@ input[type=checkbox]:checked~.main-nav {
 	img{
 		position:relative;
 	}
-}
-	
 }

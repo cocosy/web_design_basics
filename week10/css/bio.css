@@ -9,22 +9,36 @@ padding:0}
 
 body {
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
-    font-size: 100%;
     margin:auto;
-    max-width: 70%;
-/*	min-width: 70%;*/
+/*    max-width: 70%;*/
+	line-height: 1.8;
     background-color: ghostwhite;
-/*	background-image:url("swimj.jpg");*/
-/*	background-size: contain;*/
 }
 
 .container-fluid {
-    padding-bottom: 70px;
-    padding-top: 15%;
+    padding: 5% 20%;
+	
+}
+
+
+.pull-right{
+	float:center !important;
+	width: 100%;
+}
+
+.navbar-toggle{
+	background-color: ghostwhite;
+    position:relative;
+/*		display: inline-block;*/
+		margin:1;
+		padding: 1em 0.7em;
+		text-align:center;
+		font-size:1.4em; 
 }
 
 .navbar {
-	
+	color: #224;
+	background-color: ghostwhite;
     border: 0;
     border-radius: 0;
     font-size: 12px;
@@ -34,13 +48,18 @@ body {
     padding-top: 15px;
 }
 
-.navbar-nav li a:hover {
+h1, .navbar-nav li a:link {
+     color: #224 !important;
+}
+h1, .navbar-nav li a:hover {
     color: lightblue !important;
 }
 
-.navbar-nav li a:visited {
-    color: rgb(170,170,170);
+h1, .navbar-nav li a:visited {
+    color: rgb(170,170,170) !important;
 }
+
+
 /*
 
 header {
@@ -72,9 +91,11 @@ nav {
 }
 */
 
+/*
 figure{
-/*	height:550px;*/
+	height:550px;
     float: right;}
+*/
 
 
 li {
@@ -84,28 +105,30 @@ li {
 
 
 
+/*
 article {
-/*    background-color: rgba(169,169,169,0.50);*/
+    background-color: rgba(169,169,169,0.50);
     width: 50%;
     float:left;
     margin-top:20px;
     margin-left:10px;
 }
+*/
 
-div{background-color: transparent;
-}
 
+/*
 .container-fluid {
 	    float:right;
  		width: 50%;
 }
+*/
 
 footer {text-align: center;}
 
 
 h1 {
     background-color:transparent;
-    color: #224;
+
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 2.1875em;
     padding: 25px 25px 25px 25px;
