@@ -1,0 +1,65 @@
+*{cursor: url(../img/fish-07.png)5 5,help;}
+
+/*apply to all page*/
+
+
+
+
+
+
+
+
+/*
+div {
+ cursor:url(https://media.giphy.com/media/3ohhwiY7Wke9briEqk/giphy.gif),auto;
+}*/
+
+
+div {
+    cursor:default;
+}
+
+/*
+figure{
+	position: absolute;
+}
+*/
+
+.home{
+/*{*/
+/*	position:absolute;*/
+/*
+    top: 0px;
+    left:0px;
+*/
+    max-width:100%;
+}
+
+.little{
+	display: none;
+}
+
+/*.door{max-width:20%;*/
+/*    margin-left:50%;*/
+/*        top: 10%;*/
+/*    left:750px;*/
+/*    left:60%;*/
+/*    margin-top: 30%;*/
+/*    float:left;*/
+/*}*/
+
+footer{
+  
+    text-align: center;
+}
+
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+	.home{
+		display: none;
+	}
+	.little{
+		display: block;
+		width:100%;
+		position: relative;
+	}
+}
