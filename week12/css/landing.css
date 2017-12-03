@@ -65,8 +65,6 @@ body {
 	position: relative;
 	width: 20%;
 }
-
-
 /*get rid of dot*/
 
 
@@ -88,24 +86,18 @@ body {
 
 figcaption p {
 	padding-top: 15%;
+	font-size: 0.6em;
 }
 
 figcaption:hover {
 	opacity: .6;
 }
 
-/*
-
-.doors figure{
-    color: blue;
-    float: left;
-    text-align: center;
-}
-*/
 
 img {
 	max-width: 100%;
 }
+
 
 
 /*section {}*/
@@ -116,12 +108,13 @@ footer {
 
 h1 {
 	background-color: transparent;
-	color: #224;
+	color:#FFF;
 	font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
 	font-size: 2.1875em;
 	padding: 25px 25px 25px 15px;
 }
 
+/*
 h2 {
 	background-color: transparent;
 	color: #FFF;
@@ -131,6 +124,7 @@ h2 {
 	padding-left: 40px;
 	padding-top: 10px;
 }
+*/
 
 h3 {
 	background-color: #FFDAB9;
@@ -162,11 +156,12 @@ h3 {
 		text-align: center;
 	}
 
+/*
 	.desc {
 		background-color: rgb(170, 170, 170);
 		color: #fff;
 		display: block;
-		font-size: 2em;
+
 		height: 98%;
 		width: 100%;
 		opacity: 0;
@@ -179,7 +174,7 @@ h3 {
 		background-color: rgb(170, 170, 170);
 		color: #fff;
 		display: block;
-		font-size: 2em;
+
 		height: 95%;
 		width: 100%;
 		opacity: 0;
@@ -188,15 +183,54 @@ h3 {
 		position: absolute;
 		transition: opacity .4s ease;
 	}
+*/
 	footer {
-		min-height: 150px;
-		margin: 0;
-		padding: 0;
 		display: block;
 		padding: 1em;
 		text-align: center;
 	}
 }
+
+	section {
+	animation: colorchange 2s infinite;
+    /*animation is a combined property*/
+     animation: basicmove 15s infinite;
+    height:350px;
+    position: relative;
+    width: 350px;
+}
+
+
+@keyframes basicmove {
+    0%{
+    background: rgba(255, 0, 0, 0.5);
+	left:0px;
+     top:0px;
+	}
+	
+	35%{
+	background: blue;
+	 left: 400px;
+    top: 400px;
+	}
+	
+    70% {
+	background: red;
+	left: 800px;
+     top:0;
+    }
+	
+	100%{
+	background: green;
+	left: 400px;
+     top:0;
+		
+	}
+	
+	
+}
+
+
 
 @media only screen and (min-width: 20em) and (max-width: 29em) {
 
@@ -233,3 +267,5 @@ h3 {
 		position: absolute;
 		transition: opacity .4s ease;
 }
+
+
