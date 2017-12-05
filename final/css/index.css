@@ -1,65 +1,171 @@
-*{cursor: url(../img/fish-07.png)5 5,help;}
+/**{cursor: url(../img/fish-07.png)5 5,help;}*/
 
-/*apply to all page*/
+*{background-color: rgb(254,204,200);
+}
+
+body {background-color: rgb(254,204,200);
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+
+/*    max-width: 70%;*/
+	line-height: 1.8;
+
+}
+
+.container-fluid {
+    padding: 5% 20%;
+	background-color: rgb(254,204,200);
+	
+}
 
 
+.pull-right{
+	float:center !important;
+	width: 100%;
+}
+
+.navbar-toggle{
+
+    position:relative;
+		display: inline-block;
+		margin:1;
+		padding: 1em 0.7em;
+		text-align:center;
+		font-size:1.4em; 
+}
+
+#mynavbar {
+background-color: rgb(254,204,200);
+
+ border: 0;
+    border-radius: 0;
+    font-size: 12px;
+/*    letter-spacing: 5px;*/
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h1, .navbar-nav li a:link {
+     color: #224 !important;
+}
+h1, .navbar-nav li a:hover {
+    color: lightblue !important;
+}
+
+h1, .navbar-nav li a:visited {
+    color: rgb(170,170,170) !important;
+}
 
 
+h1 { font-family: "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.1875em;
+    padding: 25px 25px 25px 25px;
+
+}
 
 
+h2 {color: #224;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
 
+}
+
+h3 {
+/*    background-color: rgba(169,169,169,0.50);*/
+    color: #224;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1em;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+#processing-canvas{
+	width: 800px;
+	display: block;
+	margin: auto;
+	 
+	
+	
+}
+
+.draggable-object {
+    background-color:floralwhite;
+    border-radius:50%;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+.draggable-object p {
+    padding-top: 2.5em;
+}
+
+.drop-target {
+    background: transparent;
+    border-radius: 50%;
+    color: lawngreen;
+    height:200px;
+	width: 200px;
+    left: 610px;
+
+    position: absolute;
+    text-align: center;
+    top: 410px;
+  
+}
 
 /*
-div {
- cursor:url(https://media.giphy.com/media/3ohhwiY7Wke9briEqk/giphy.gif),auto;
-}*/
+.drop-target p {
+    margin-top: 49%;
+	text-align: center;
+}
+*/
+
 
 
 div {
     cursor:default;
+
 }
 
-/*
-figure{
-	position: absolute;
-}
-*/
+
 
 .home{
-/*{*/
-/*	position:absolute;*/
-/*
-    top: 0px;
-    left:0px;
+/
 */
     max-width:100%;
 }
 
-.little{
-	display: none;
-}
 
-/*.door{max-width:20%;*/
-/*    margin-left:50%;*/
-/*        top: 10%;*/
-/*    left:750px;*/
-/*    left:60%;*/
-/*    margin-top: 30%;*/
-/*    float:left;*/
-/*}*/
+
+ p{
+	 background-color: transparent;
+    color:  #224;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1em;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-top: 8px;
+}
 
 footer{
   
     text-align: center;
 }
 
-@media only screen and (min-width: 20em) and (max-width: 29em) {
-	.home{
-		display: none;
+/*
+@keyframes panoramic {
+	from{
+		background-position: 0 0;
 	}
-	.little{
-		display: block;
-		width:100%;
-		position: relative;
-	}
+    to {
+        background-position: 100% 0;
+    }
 }
+*/
+
+

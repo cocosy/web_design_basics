@@ -116,7 +116,7 @@ a {
   height: 200px;
   width: 200px;
   display: inline-block;
-  background-color: red;
+  background-color: #ff9999;
   margin-left: 0.5em;
   margin-bottom: 0.5em;
   transition:transform 1s,background-color 2s;
@@ -124,36 +124,58 @@ a {
 }
 
 .box:hover {
+  background: green;
   transform:rotate(360deg);
+
 }
+
 
 .box:active {
-  background-color: green;
-  transform: rotateX(180deg);
-
+ 
+ transform: rotateX(180deg); 
 }
 
-div {
+.pic1:active{
+background: url(../img/1988.jpg) ;
+}
 
-	animation: basicmove 5s infinite;}
+.pic2:active{
+background: url(../img/1988.jpg) ;
+}
+
+.pic3:active{
+background: url(../img/1988.jpg) ;
+}
+
+.pic4:active{
+background: url(../img/1988.jpg) ;
+}
+
+.pic5:active{
+background: url(../img/1988.jpg) ;
+}
+
+
+div {
+animation: basicmove 5s infinite;}
 
 
 
 @keyframes basicmove {
     0%{
-    background: #ff9999;
+    background-color: #ff9999;
 	left: 200px;
      top:0;
 	}
 	
 	35%{
-	background: #b3d9ff;
+	background-color: #b3d9ff;
 	 left:500px;
     top: 0;
 	}
 	
     70% {
-	background: #ffe6cc;
+	background-color: #ffe6cc;
 	left: 0;
      top:0;
     }

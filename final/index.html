@@ -8,7 +8,10 @@
 	<title>Yang Shen</title>
 	<link rel="icon" type="image/png" href="img/icon.png">
 	<link rel="stylesheet" href="css/reset.css" media="all">
-	<link rel="stylesheet" href="css/index.css" media="all">
+	<link rel="stylesheet" href="landing.css" media="all">
+	 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 
 
 
@@ -17,17 +20,20 @@
 
 <body>
 
-	<div>
-
-
 		<!--    height="730"-->
-		<figure>
-			<a href="landing.html"><img class="home" src="img/framework-01.png" alt="Home yang shen"></a>
-		</figure>
-		
-		<figure>
-			<a href="landing.html"><img class="little" src="img/framework-08.png" alt="Home yang shen"></a>
-		</figure>
+		 <div id="droppable" class="drop-target"><p>Drop here and go to Archive</p></div>
+    <div id="draggable" class="draggable-object"><p>Drag me</p></div>
+
+    <script>
+        $("#draggable").draggable();
+        $("#droppable").droppable({
+            drop: function() {
+                window.open("file:///Users/yangshen/Documents/GitHub/web_design_basics/final/archive.html");
+            }
+        });
+
+    </script>
+
 		<!--         width=94%-->
 <!--
 		<figure>
@@ -44,7 +50,7 @@
 
 
 
-	</div>
+	
 </body>
 
 

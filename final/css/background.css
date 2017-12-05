@@ -1,0 +1,130 @@
+*{
+	margin: auto;
+	padding: auto;
+	
+}
+#bgvid { 
+
+/*
+min-width: 70%; 
+min-height: 70%;
+*/
+background-color:rgb(0, 0, 0);
+	background-position: center center;
+	transition: 1s opacity; 
+/*
+height: auto; 
+z-index: -100;
+*/
+/*background: url(/media/thumbnails/new-england.jpg) no-repeat;*/
+
+	
+}
+
+.vid_playlist {
+	display: none;
+}
+
+/*
+#vidpause {
+position: absolute;
+margin-top: 5%;
+margin-left: 5%;
+font-size: 1.1em;
+color: #fff;
+background-color: #44664D;
+background: -webkit-linear-gradient(#44664D, #C4C2C2);
+background: linear-gradient(#44664D, #C4C2C2);
+border: 0 none;
+cursor: pointer;
+border-radius: 3px;
+}
+*/
+
+
+/*
+.stopfade { opacity: .5; 
+}
+*/
+
+.vid{
+
+display: block;
+position: absolute;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+}
+
+video {
+min-width: 100%;
+ min-height: 100%;
+z-index: -100;
+background-position: center;
+background-size: cover;
+}
+
+
+
+section {
+	animation: colorchange 2s infinite;
+    /*animation is a combined property*/
+     animation: basicmove 15s infinite;
+	display: block;
+
+    height:750px;
+  
+    width: 750px;
+	  position: relative;
+}
+@keyframes basicmove {
+    0%{
+/*    background: rgba(255, 0, 0, 0.5);*/
+		background: rgba(255, 20,20, 0.5);
+	left:-380px;
+     top:0px;
+	}
+	
+/*
+
+	25%{
+ background: rgba(255, 0, 0, 0.5);
+	 left: 400px;
+    top: 100px;
+	}
+	
+    50% {
+		background:rgba(0, 255, 0, 0.3);
+	left: 0px;
+     top:0;
+    }
+	
+	75%{
+	background:rgba(0, 0, 255,0.7);
+	left: -400px;
+     top:-100px;
+		
+	}
+*/
+	50%{
+		background:rgba(204, 20,20, 0.5);
+		left: -375px;
+		top: -3px;}
+	100%{
+	background:rgba(0, 0, 200,0.5);
+	left:-380px;
+     top:0px;
+		
+	}
+		
+		
+	
+	}
+	
+	
