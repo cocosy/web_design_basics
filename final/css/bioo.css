@@ -1,0 +1,258 @@
+*{margin:0;
+padding:0}
+
+/*apply to all page*/
+
+
+
+
+
+body {
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    margin:auto;
+/*    max-width: 70%;*/
+	line-height: 1.8;
+    background-color: ghostwhite;
+}
+
+.container-fluid {
+    padding: 5% 20%;
+	
+}
+
+
+.pull-right{
+	float:center !important;
+	width: 100%;
+}
+
+.navbar-toggle{
+	background-color: ghostwhite;
+    position:relative;
+/*		display: inline-block;*/
+		margin:1;
+		padding: 1em 0.7em;
+		text-align:center;
+		font-size:1.4em; 
+}
+
+.navbar {
+	color: #224;
+	background-color: ghostwhite;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+/*    letter-spacing: 5px;*/
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h1, .navbar-nav li a:link {
+     color: #224 !important;
+}
+h1, .navbar-nav li a:hover {
+    color: lightblue !important;
+}
+
+h1, .navbar-nav li a:visited {
+    color: rgb(170,170,170) !important;
+}
+
+
+/*
+
+header {
+    background-color: transparent;
+    font-family: Avenir, Tahoma, Verdana, sans-serif; 
+}
+*/
+
+/*
+nav {
+    font-family: Avenir, Tahoma, Verdana, sans-serif;
+    background-color: rgba(220,220,220,0.50);
+    padding: 10px 10px;
+    line-height: 160%;
+    float: left;
+    margin-left:10px;
+	text-align: center;
+    width:100px;}
+*/
+
+/*add padding on the top to add margin on the top*/
+
+/*
+nav {
+    background-color: beige;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+*/
+
+/*
+figure{
+	height:550px;
+    float: right;}
+*/
+
+
+li {
+    list-style-type: none;/*get rid of dot*/
+}
+
+
+
+
+/*
+article {
+    background-color: rgba(169,169,169,0.50);
+    width: 50%;
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+}
+*/
+
+
+/*
+.container-fluid {
+	    float:right;
+ 		width: 50%;
+}
+*/
+
+footer {text-align: center;}
+
+
+h1 {
+    background-color:transparent;
+
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.1875em;
+    padding: 25px 25px 25px 25px;
+
+}
+
+/*
+.gallery figure {
+    color: blue;
+    float: left;
+    height: 220px;
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    width: 20%;
+}
+*/
+
+h2 {
+    background-color: transparent;
+    color: #224;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+
+}
+
+h3 {
+/*    background-color: rgba(169,169,169,0.50);*/
+    color: #224;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1em;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+
+    
+#processing-canvas{
+	width: 800px;
+	display: block;
+	margin: auto;
+	 
+	
+	
+}
+
+.draggable-object {
+    background-color:floralwhite;
+    border-radius:50%;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+.draggable-object p {
+    padding-top: 2.5em;
+}
+
+.drop-target {
+    background: transparent;
+    border-radius: 50%;
+    color: lawngreen;
+    height:200px;
+	width: 200px;
+    left: 610px;
+
+    position: absolute;
+    text-align: center;
+    top: 410px;
+  
+}
+
+/*
+.drop-target p {
+    margin-top: 49%;
+	text-align: center;
+}
+*/
+
+
+
+div {
+    cursor:default;
+
+}
+
+
+
+.home{
+/
+*/
+    max-width:100%;
+}
+
+
+
+ p{
+	 background-color: transparent;
+    color:  #224;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1em;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+footer{
+  
+    text-align: center;
+}
+
+/*
+@keyframes panoramic {
+	from{
+		background-position: 0 0;
+	}
+    to {
+        background-position: 100% 0;
+    }
+}
+*/
+
+
