@@ -1,5 +1,6 @@
-*{margin:0;
-padding:0}
+*{background-color: rgb(254,204,200);
+
+}
 
 /*apply to all page*/
 
@@ -12,24 +13,25 @@ body {
     margin:auto;
 /*    max-width: 70%;*/
 	line-height: 1.8;
-    background-color: ghostwhite;
+    background-color: rgb(254,204,200);
 }
 
 .container-fluid {
-    padding: 5% 20%;
+/*    padding: 5% 20%;*/
+	background-color: rgb(254,204,200);
+}
 	
+
+.navbar-default{
+	background-color: rgb(254,204,200);
 }
 
 
-.pull-right{
-	float:center !important;
-	width: 100%;
-}
+
 
 .navbar-toggle{
-	background-color: ghostwhite;
+	background-color: rgb(254,204,200);
     position:relative;
-/*		display: inline-block;*/
 		margin:1;
 		padding: 1em 0.7em;
 		text-align:center;
@@ -37,15 +39,14 @@ body {
 }
 
 .navbar {
-	color: #224;
-	background-color: ghostwhite;
+	color: rgb(254,204,200)；;
+	background-color: rgb(254,204,200)；
     border: 0;
     border-radius: 0;
     font-size: 12px;
 /*    letter-spacing: 5px;*/
-    margin-bottom: 0;
-    padding-bottom: 15px;
-    padding-top: 15px;
+/*    margin-bottom: 0;*/
+
 }
 
 h1, .navbar-nav li a:link {
@@ -147,6 +148,7 @@ h1 {
 }
 */
 
+/*
 h2 {
     background-color: transparent;
     color: #224;
@@ -157,6 +159,7 @@ h2 {
     padding-top: 10px;
 
 }
+*/
 
 h3 {
 /*    background-color: rgba(169,169,169,0.50);*/
@@ -194,7 +197,7 @@ h3 {
 .drop-target {
     background: transparent;
     border-radius: 50%;
-    color: lawngreen;
+    color:transparent;
     height:200px;
 	width: 200px;
     left: 610px;
