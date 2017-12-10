@@ -42,7 +42,7 @@ margin-top: 2em;
 }
 
 h1, .navbar-nav li a:link {
-     color: #224 !important;
+     color:  rgb(200,200,200) !important;
 }
 h1, .navbar-nav li a:hover {
     color: lightblue !important;
