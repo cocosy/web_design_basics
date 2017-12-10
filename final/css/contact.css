@@ -1,12 +1,10 @@
-*{margin:0;
-padding:0}
+
 
 /*apply to all page*/
 
 body {
-    font-family: Avenir, Tahoma, Verdana, sans-serif;
- 
-    background-color: ghostwhite;
+   font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    background-color:black;
 }
 
  .container-fluid {
@@ -16,19 +14,24 @@ body {
 
 }
 
+
 .navbar-toggle{
 	background-color: ghostwhite;
     position:relative;
 /*		display: inline-block;*/
-		margin:1;
+		margin:1em;
 		padding: 1em 0.7em;
 		text-align:center;
 		font-size:1.4em; 
-}
 
+
+}
+.navbar-collapse {
+margin-top: 2em;
+}
 .navbar {
 	color: #224;
-	background-color: ghostwhite;
+	background-color: black;
     border: 0;
     border-radius: 0;
     font-size: 12px;
@@ -98,7 +101,7 @@ footer {
 
 h1 {
     background-color:transparent;
-    color: #224;
+    color: ghostwhite;
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 2.1875em;
     padding: 25px 25px 25px 25px;
@@ -108,10 +111,10 @@ h1 {
 
 h2 {
     background-color: transparent;
-    color: #224;
+color:rgb(170,170,170);
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 1.5em;
-    padding-bottom: 10px;
+    padding-bottom: 2em;
     padding-left: 12px;
     padding-top: 13px;
 }
@@ -128,19 +131,31 @@ h3 {
 }
 
 .form-group{
-padding-top: 10px;
-    height: 2em;
+padding:inherit;
+ height: 4em;
+color:rgb(170,170,170);
 }
 
 .button-wrapper{
-	padding-left: 12px;
+	padding-left: 7px;
 	 position: relative;
+	padding-bottom: 25px;
 	
 }
 .checkbox{
 	padding-top: 10px;
+	padding-bottom: 25px;
     height: 2em;
+	display: inline-block;
 	 position: relative;
+}
+
+.control-label{
+	height: 1.5em;
+}
+
+.btn{margin-left: 10px;
+	
 }
 /*
 

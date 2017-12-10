@@ -20,6 +20,25 @@ right: 0;
 bottom: 0;
 width: 100%;
 }
+
+
+#mscbutton{
+	 font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+display: block;
+position: absolute;
+background-position: center center;
+z-index: 100;
+background-color:black;
+border: 0 none;
+cursor: pointer;
+border-radius: 3px;
+color:ghostwhite;
+	margin-left: 95%;
+	
+	
+}
+
+
 #bgvid { 
 
 /*
@@ -60,10 +79,8 @@ border-radius: 3px;
 */
 
 
-/*
 .stopfade { opacity: .5; 
 }
-*/
 
 .vid{
 

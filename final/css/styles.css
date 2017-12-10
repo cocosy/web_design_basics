@@ -1,0 +1,218 @@
+/*
+* {
+  box-sizing: border-box;
+	margin: 0;
+	
+	padding: 0;
+}
+*/
+
+
+
+
+body {
+min-width: 100%;
+	 font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+  margin: 0;
+  padding: 0;
+ background-color:black;
+	
+}
+
+
+.navbar-toggle{
+
+     position:relative;
+		margin-bottom:1em;
+		padding: 1em 0.7em;
+		text-align:center;
+		font-size:1.4em; 
+}
+
+nav{font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+	
+
+
+	background-color:rgb(0,0,0);
+
+	
+}
+
+
+.navbar-default{
+	
+	 background-color:black;
+	
+}
+
+.navbar {
+	padding:25px 25px;
+	box-sizing: border-box;
+	margin-top: 10px;
+
+    border: 0;
+    border-radius: 0;
+    font-size:12px;
+/*    letter-spacing: 5px;*/
+
+/*
+    padding-bottom: 15px;
+    padding-top: 15px;
+*/
+}
+
+h1 {
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.1875em;
+	
+    padding: 25px 25px 25px 25px;
+
+}
+
+
+
+.navbar-brand{
+	text-align: center;
+}
+
+h1, .navbar-nav li a:link {
+     color: #224 !important;
+}
+h1, .navbar-nav li a:hover {
+    color: lightblue !important;
+}
+
+h1, .navbar-nav li a:visited {
+    color: rgb(170,170,170) !important;
+}
+
+h1 {
+	padding-top: 5px; 
+   padding-bottom: 0px;
+/*    color: #224;*/
+    color: ghostwhite;
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.1875em;
+
+	text-align: center;
+
+
+}
+
+
+
+
+
+main {
+  padding-left: 107px;
+padding-right: 25px;
+	padding-top: 0.5em;
+}
+
+
+ul{
+	list-style-type: none;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-color: #ff9999;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+margin-top: 0.5em;
+ 
+  transition:transform 1s,background-color 2s;
+
+}
+
+.box:hover {
+  background: green;
+  transform:rotate(360deg);
+	animation: basicmove 10s infinite;
+
+}
+
+
+.box:active {
+ 
+ transform: rotateX(180deg); 
+}
+
+.pic1:active{
+background: url(../img/archive/1988.jpg) ;
+}
+
+.pic2:active{
+background: url(../img/archive/1994.jpg) ;
+}
+
+.pic3:active{
+background: url(../img/archive/before%20sunrise.jpeg) ;
+}
+
+.pic4:active{
+background: url(../img/archive/hp.jpg) ;
+}
+
+.pic5:active{
+background: url(../img/archive/paprika.jpg) ;}
+
+.pic6:active{
+background: url(../img/archive/Tokyo!.jpg) ;}
+
+.pic7:active{
+background: url(../img/archive/glass_animalss.jpg) ;}
+
+.pic8:active{
+background: url(../img/archive/xmen.jpg) ;}
+
+.pic9:active{
+background: url(../img/archive/lets_go_in_love_with_a_ghost.jpg) ;}
+
+.pic10:active{
+background: url(../img/archive/rick&morty.png) ;}
+.pic11:active{
+background: url(../img/archive/chunjiao.jpeg) ;}
+.pic12:active{
+background: url(../img/archive/emily.jpg) ;}
+
+
+
+
+
+
+@keyframes basicmove {
+    0%{
+    background-color: #ff9999;
+/*
+	left: 200px;
+     top:0;
+*/
+	}
+	
+	35%{
+	background-color: #b3d9ff;
+/*
+	 left:500px;
+    top: 0;
+*/
+	}
+	
+    70% {
+	background-color: #ffe6cc;
+/*
+	left: 0;
+     top:0;
+*/
+    }
+	
+	100%{
+    background: #ff9999;
+/*
+	left: 0;
+     top:0;
+*/
+	}
+}

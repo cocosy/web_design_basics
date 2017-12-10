@@ -16,19 +16,19 @@ vidFade();
 
 }
 
-//pauseButton.addEventListener("click", function() {
-//vid.classList.toggle("stopfade");
-//if (vid.paused) {
-//
-//vid.play();
-//pauseButton.innerHTML = "pause";
-//
-//} else {
-//
-//vid.pause();
-//
-// pauseButton.innerHTML = "paused";
-//
-//}
-//
-//})
+pauseButton.addEventListener("click", function() {
+vid.classList.toggle("stopfade");
+if (vid.paused) {
+
+vid.play();
+pauseButton.innerHTML = "pause";
+
+} else {
+
+vid.pause();
+
+ pauseButton.innerHTML = "paused";
+
+}
+
+})

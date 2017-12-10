@@ -5,30 +5,43 @@
     <meta charset="utf-8" />
     <title>Yang Shen</title>
     <link rel ="icon" type="image/png" href = "img/icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/traveling.css" media="all">
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	
 
 
 </head>
 
-<body>
-    <header>
-        <h1>YangShen.travel</h1>
 
-        <nav>
-       
-            <ul>
-                <li><a class="nav-links" href="index.html">home</a></li>
-                <li><a class="nav-links" href="bio.html">bio</a></li>
-                <li><a class="nav-links" href="contact.html">contact</a></li>
-                <li><a class="nav-links" href="works.html">works</a></li>
-                <li><a class="nav-links" href="traveling.html">traveling</a></li>
-            </ul>
-
-        </nav>
- 
-
-    </header>
-
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</button>
+			<a class="navbar-brand" href="landing2.html">
+				<h1>YangShen.Travel</h1>
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+<!--					<li><a href="traveling.html">Travel</a></li>-->
+					<li><a href="biooo.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="archi.html">Archive</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  <body>
     <div>
     <article>     
          
@@ -36,7 +49,7 @@
     </article>
         
            <figure>
-            <figcaption onclick="javascript:window.location.href='img/beijing.jpg';" ><p>Beijing</p>
+            <figcaption class="img-responsive" onclick="javascript:window.location.href='img/beijing.jpg';" ><p>Beijing</p>
             </figcaption>
 <!--            <a href="img/framework2-07.png" title="Beijing">-->
                 <img src="img/beijing.png" alt="BJ" >
@@ -44,19 +57,19 @@
           </figure>
         
   <figure>
-            <figcaption onclick="javascript:window.location.href='seoul.html';"><p>Seoul</p>
+            <figcaption class="img-responsive" onclick="javascript:window.location.href='seoul.html';"><p>Seoul</p>
             </figcaption>
             <a href="seoul.html" title="Seoul"> <img src="img/seoul.png" alt="SL" ></a>
 </figure>
       
 <figure>
-            <figcaption onclick="javascript:window.location.href='iceland.html';" ><p>Iceland</p>
+            <figcaption class="img-responsive" onclick="javascript:window.location.href='iceland.html';" ><p>Iceland</p>
             </figcaption>
             <a href="iceland.html" title="Iceland"> <img src="img/iceland.png" alt="Ice" ></a>
     </figure>
         
 <figure> 
-            <figcaption onclick="javascript:window.location.href='img/hk.png';" ><p>Hong Kong</p>
+            <figcaption class="img-responsive" onclick="javascript:window.location.href='img/hk.png';" ><p>Hong Kong</p>
             </figcaption>
             <a href="hongkong.html" title="Hong Kong"> <img src="img/hongkong.jpg" alt="HK" ></a>
         </figure>
@@ -65,11 +78,11 @@
     </article>
     
     <figure>
-            <figcaption onclick="javascript:window.location.href='img/chicago.png';"><p>Chicago</p>
+            <figcaption class="img-responsive" onclick="javascript:window.location.href='img/chicago.png';"><p>Chicago</p>
             </figcaption>
             <a href="chicago.html" title="chicago"> <img src="img/chicago.png" alt="chicago" ></a>
     </figure><figure>
-            <figcaption onclick="javascript:window.location.href='img/japan.jpg';"><p>Japan</p>
+            <figcaption class="img-responsive" onclick="javascript:window.location.href='img/japan.jpg';"><p>Japan</p>
             </figcaption>
             <a href="japan.html" title="japan"> <img src="img/japan.jpg" alt="JP" ></a>
         </figure>

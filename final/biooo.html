@@ -12,11 +12,12 @@
 	<link rel="stylesheet" href="css/bioo.css" media="all">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 	
-	<script src="js/processing.min.js"></script>
+  <script src="js/processing.min.js"></script>
   <script type="text/processing"  data-processing-target="processing-canvas">
   
 int r;
@@ -155,7 +156,7 @@ if (mouseX > width/2-r/2 && mouseX < width/2+r/2 &&
 </head>
 
 
-
+<body>
 	<!--
 	<header>
 		<label for="show-menu" class="show-menu">&#9776;</label>
@@ -164,22 +165,23 @@ if (mouseX > width/2-r/2 && mouseX < width/2+r/2 &&
 -->
 
 	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 				</button>
-			<a class="navbar-brand" href="landing.html">
-					<h1>YangShen.bio</h1>
+			<a class="navbar-brand" href="landing2.html">
+					<h1>YangShen.Portfolio</h1>
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="works.html">Works</a></li>
-					<li><a href="bio.html">Bio</a></li>
+					<li><a href="traveling.html">Travel</a></li>
+<!--					<li><a href="biooo.html">Bio</a></li>-->
 					<li><a href="contact.html">Contact</a></li>
+					<li><a href="archi.html">Archive</a></li>
 				</ul>
 			</div>
 		</div>
@@ -189,7 +191,7 @@ if (mouseX > width/2-r/2 && mouseX < width/2+r/2 &&
 
 
 	
-<body>
+
 		<div id="droppable" class="drop-target "></div>
     <div id="draggable" class="draggable-object"><p>Drag it</p></div>
 
@@ -197,7 +199,7 @@ if (mouseX > width/2-r/2 && mouseX < width/2+r/2 &&
         $("#draggable").draggable();
         $("#droppable").droppable({
             drop: function() {
-                window.open("http://b.parsons.edu/~sheny082/week11/index.html");
+                window.open("https://cocosy.github.io/web_design_basics/final/landing3.html");
             }
         });
     </script>

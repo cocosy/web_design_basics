@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  border-top: 1px dashed #afafaf;
+  background-color: #efefef;
+}
+
+.current {
+  background-color: yellow;
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: blue;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  background-color: red;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition:transform 1s,background-color 2s;
+
+}
+
+.box:hover {
+  transform:rotate(360deg);
+}
+
+.box:active {
+  background-color: green;
+  transform: rotateX(180deg);
+
+}
+
+
