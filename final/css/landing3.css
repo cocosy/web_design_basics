@@ -145,21 +145,28 @@ section {
      top:0px;
 	}
 	
-	35%{
-	background: blue;
+	25%{
+	background: rgba(0, 255, 0, 0.5);
 	 left: 400px;
     top: 400px;
 	}
 	
-    70% {
-	background: red;
+    50% {
+	background: rgba(255, 255, 0, 0.5);
 	left: 800px;
      top:0;
     }
 	
+	75%{
+			background: rgba(0, 0, 255, 0.5);
+		left: 400px;
+     top:0;
+		
+	}
+	
 	100%{
-	background: green;
-	left: 400px;
+	background: rgba(255, 0, 0, 0.5);
+	left: 0px;
      top:0;
 		
 	}
@@ -185,19 +192,19 @@ section {
 	}
 	
 	25%{
-	background: blue;
+	background:rgba(0, 255, 0, 0.5);
 	 left: 200px;
     top: 400px;
 	}
 	
     50% {
-	background: red;
+	background: rgba(255, 255, 0, 0.5);
 	left: 350px;
      top:0;
     }
 	
 	75%{
-	background: green;
+	background:rgba(0, 0, 255, 0.5);
 	left: 200px;
      top:0;
 		
