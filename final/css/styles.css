@@ -186,33 +186,21 @@ background: url(../img/archive/emily.jpg) ;}
 @keyframes basicmove {
     0%{
     background-color: #ff9999;
-/*
-	left: 200px;
-     top:0;
-*/
+
 	}
 	
 	35%{
 	background-color: #b3d9ff;
-/*
-	 left:500px;
-    top: 0;
-*/
+
 	}
 	
     70% {
 	background-color: #ffe6cc;
-/*
-	left: 0;
-     top:0;
-*/
+
     }
 	
 	100%{
     background: #ff9999;
-/*
-	left: 0;
-     top:0;
-*/
+
 	}
 }
