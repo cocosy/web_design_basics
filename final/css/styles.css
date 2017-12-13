@@ -61,6 +61,18 @@ nav{font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
 */
 }
 
+
+h2 {
+    background-color: transparent;
+    color: rgb(20,20,20);
+    font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+
 h1 {
     font-family: Avenir, "Gill Sans MT", Calibri, sans-serif;
     font-size: 2.1875em;
