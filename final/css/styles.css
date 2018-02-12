@@ -134,6 +134,7 @@ ul{
   margin-left: 0.5em;
   margin-bottom: 0.5em;
 margin-top: 0.5em;
+border: 2em;
  
   transition:transform 1s,background-color 2s;
 
